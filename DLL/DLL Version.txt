@@ -1,0 +1,69 @@
+MFC용 RS-232C 공개 라이브러리 DLL
+
+작업일자 : 2009년 09월 05일
+버전정보 : Ver 1.4.2
+개발환경 : VC++ V9.0 (Visual Studio 2008)
+
+
+http://www.gitae.pe.kr 을 방문하셔서 최신버전을 확인하세요.
+
+
+업그레이드 내용
+
+Ver 1.4.2
+	- readBytes() 함수 버그수정 (내부함수)	
+
+Ver 1.4.1
+	- getWaitingByteSize() 함수 추가
+	- CQueue 객체명을 CgtQueue 로 변경
+
+Ver 1.4.0
+	- changePortState() 함수 추가
+
+Ver 1.3.2
+	- 데이터 없이 송신함수를 호출할 때 발생하는 버그 수정
+
+	- checkPort() 함수의 버그수정하고
+          static 함수로 바꾸어 CgtComPort 객체 생성없이도 호출가능
+          ( ex, CgtComPort::checkPort(3); )
+
+Ver 1.3.1
+	- 내부 전송버퍼를 CByteArray(MFC Class)에서 
+	  CQueue로 변경하여 안정성을 높임
+
+	- checkPort() 함수에서 10 이상의 포트 지원
+
+
+Ver 1.3.0
+	- sendBytes()나 sendString() 함수에 지연시간 파라메터 추가.
+	  동시전송에서 바이트 사이에 지연시간을 추가해서 MICOM 과의 전송에서 
+	  종종 발생하는 연속전송 오류를 해결
+	  ( 바이트 배열 동시전송 모드를 COMM_WITH_MICOM로 지정할때만 적용됨 ) 
+	  
+	- setSendingMode() 에서 바이트 배열 동시전송 모드 추가
+	  ( COMM_WITH_PC(default)와 COMM_WITH_MICOM 지정가능 )
+
+	- 연속전송에서 종종 발생하는 CByteArray error 해결
+
+
+Ver 1.2.0
+	- 10 이상의 멀티포트 지원
+
+Ver 1.1.0
+	- getPortState()를 추가해서 openPort()에서 발생한 문제를 해결
+
+Ver 1.0.1
+	- COM4 이상의 포트 지원 (멀티 포트가능)
+
+Ver 1.0.0 
+	- 드디어 검증이 끝나고 정식버전으로 출발
+	- *.dll과 *.lib의 파일 이름을 gtLib**에서 gtComPort**으로 수정 배포
+
+Ver 0.9.3
+	- sendByte, sendBytes, sendString 함수의 delay time을 1ms로 감소시킴 (더이상은 불가함)
+
+Ver 0.9.2
+	- sendByte, sendBytes, sendString 함수의 delay time을 2ms로 감소시킴
+
+Ver 0.9.1
+	- BOOL openPort( int nPort, LPDCB lpDCB, CWnd* pParentWnd = NULL ) 함수 추가	

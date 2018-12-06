@@ -1,0 +1,95 @@
+# Microsoft Developer Studio Generated Dependency File, included by gtLib.mak
+
+.\ChartOptionDlg.cpp : \
+	"..\Include\gtLib.h"\
+	".\ChartOptionDlg.h"\
+	
+
+.\GraphOptionDlg.cpp : \
+	"..\Include\gtLib.h"\
+	".\GraphOptionDlg.h"\
+	
+
+.\gtChart.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	".\ChartOptionDlg.h"\
+	".\gtGraph.h"\
+	".\gtLegend.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtComPort.cpp : \
+	"..\Include\gtComPort.h"\
+	
+
+.\gtGraph.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	".\GraphOptionDlg.h"\
+	".\gtGraph.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtLegend.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	".\gtLegend.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtLib.rc : \
+	".\res\gtLib.rc2"\
+	
+
+.\gtTimer.cpp : \
+	"..\Include\gtTimer.h"\
+	
+
+.\gtWaveform.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	"..\Include\gtTimer.h"\
+	"..\Include\gtWaveformChart.h"\
+	".\gtGraph.h"\
+	".\gtWaveform.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtWaveformChart.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	"..\Include\gtWaveformChart.h"\
+	".\gtGraph.h"\
+	".\gtWaveform.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtXYChart.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	"..\Include\gtXYChart.h"\
+	".\gtGraph.h"\
+	".\gtXYGraph.h"\
+	".\SelectPoint.h"\
+	
+
+.\gtXYGraph.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	"..\Include\gtXYChart.h"\
+	".\gtGraph.h"\
+	".\gtXYGraph.h"\
+	".\SelectPoint.h"\
+	
+
+.\SelectPoint.cpp : \
+	"..\Include\gtChart.h"\
+	"..\Include\gtLib.h"\
+	".\SelectPoint.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

@@ -1,0 +1,7 @@
+1. 프로젝트 옵션 변경 필요함
+
+프로젝트 생성 후에 
+프로젝트 옵션 -> 구성속성 -> 일반 -> 문자집합을  멀티바이트로  꼭 바꾸어 주세요.
+
+관련 참조글
+http://user.chol.com/smarty/bbs/bbs.php?page=&id=gitae&db=homegtcomport&s_category=&s_type=&s_keyword=&p=view&uid=339
