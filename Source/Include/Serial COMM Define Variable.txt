@@ -1,0 +1,106 @@
+
+#define NOPARITY            0
+#define ODDPARITY           1
+#define EVENPARITY          2
+#define MARKPARITY          3
+#define SPACEPARITY         4
+
+#define ONESTOPBIT          0
+#define ONE5STOPBITS        1
+#define TWOSTOPBITS         2
+
+
+//
+// Baud rates at which the communication device operates
+//
+
+#define CBR_110             110
+#define CBR_300             300
+#define CBR_600             600
+#define CBR_1200            1200
+#define CBR_2400            2400
+#define CBR_4800            4800
+#define CBR_9600            9600
+#define CBR_14400           14400
+#define CBR_19200           19200
+#define CBR_38400           38400
+#define CBR_56000           56000
+#define CBR_57600           57600
+#define CBR_115200          115200
+#define CBR_128000          128000
+#define CBR_256000          256000
+
+//
+// Error Flags
+//
+
+#define CE_RXOVER           0x0001  // Receive Queue overflow
+#define CE_OVERRUN          0x0002  // Receive Overrun Error
+#define CE_RXPARITY         0x0004  // Receive Parity Error
+#define CE_FRAME            0x0008  // Receive Framing error
+#define CE_BREAK            0x0010  // Break Detected
+#define CE_TXFULL           0x0100  // TX Queue is full
+#define CE_PTO              0x0200  // LPTx Timeout
+#define CE_IOE              0x0400  // LPTx I/O Error
+#define CE_DNS              0x0800  // LPTx Device not selected
+#define CE_OOP              0x1000  // LPTx Out-Of-Paper
+#define CE_MODE             0x8000  // Requested mode unsupported
+
+#define IE_BADID            (-1)    // Invalid or unsupported id
+#define IE_OPEN             (-2)    // Device Already Open
+#define IE_NOPEN            (-3)    // Device Not Open
+#define IE_MEMORY           (-4)    // Unable to allocate queues
+#define IE_DEFAULT          (-5)    // Error in default parameters
+#define IE_HARDWARE         (-10)   // Hardware Not Present
+#define IE_BYTESIZE         (-11)   // Illegal Byte Size
+#define IE_BAUDRATE         (-12)   // Unsupported BaudRate
+
+//
+// Events
+//
+
+#define EV_RXCHAR           0x0001  // Any Character received
+#define EV_RXFLAG           0x0002  // Received certain character
+#define EV_TXEMPTY          0x0004  // Transmitt Queue Empty
+#define EV_CTS              0x0008  // CTS changed state
+#define EV_DSR              0x0010  // DSR changed state
+#define EV_RLSD             0x0020  // RLSD changed state
+#define EV_BREAK            0x0040  // BREAK received
+#define EV_ERR              0x0080  // Line status error occurred
+#define EV_RING             0x0100  // Ring signal detected
+#define EV_PERR             0x0200  // Printer error occured
+#define EV_RX80FULL         0x0400  // Receive buffer is 80 percent full
+#define EV_EVENT1           0x0800  // Provider specific event 1
+#define EV_EVENT2           0x1000  // Provider specific event 2
+
+//
+// Escape Functions
+//
+
+#define SETXOFF             1       // Simulate XOFF received
+#define SETXON              2       // Simulate XON received
+#define SETRTS              3       // Set RTS high
+#define CLRRTS              4       // Set RTS low
+#define SETDTR              5       // Set DTR high
+#define CLRDTR              6       // Set DTR low
+#define RESETDEV            7       // Reset device if possible
+#define SETBREAK            8       // Set the device break line.
+#define CLRBREAK            9       // Clear the device break line.
+
+//
+// PURGE function flags.
+//
+#define PURGE_TXABORT       0x0001  // Kill the pending/current writes to the comm port.
+#define PURGE_RXABORT       0x0002  // Kill the pending/current reads to the comm port.
+#define PURGE_TXCLEAR       0x0004  // Kill the transmit queue if there.
+#define PURGE_RXCLEAR       0x0008  // Kill the typeahead buffer if there.
+
+#define LPTx                0x80    // Set if ID is for LPT device
+
+//
+// Modem Status Flags
+//
+#define MS_CTS_ON           ((DWORD)0x0010)
+#define MS_DSR_ON           ((DWORD)0x0020)
+#define MS_RING_ON          ((DWORD)0x0040)
+#define MS_RLSD_ON          ((DWORD)0x0080)

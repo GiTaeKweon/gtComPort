@@ -1,0 +1,35 @@
+MFC용 RS-232C 공개 라이브러리 예제 프로그램
+
+본 예제 프로그램은 gtComPort 통신 라이브러리의
+사용을 돕기 위해 제작되었습니다.
+
+http://www.gitae.pe.kr 을 방문하셔서 최신버전을 확인하세요.
+
+
+1. 객체 설명
+
+ - CAboutDlg : 무시
+ - CGTComPortTestDlg : 데이터 송수신 다이얼로그 (중요)
+ - CGtComPortTestApp : 무시
+ - CgtComPort : gtComPort 객체 (DLL file로 지원)
+ - CQueue : gtComPort에서 사용 (무시)
+
+
+2. CGTComPortTestDlg 설명
+
+ - OnInitDialog() : COM1, COM2 포트 오픈
+ - OnDestroy() : COM1, COM2 포트 닫기
+ - OnButtonClear() : 에디트창 문자열 지우기
+ - OnCommNotify() : 데이터 수신시 자동으로 호출
+ - OnButtonSend1() : COM1 을 사용해서 데이터 송신
+ - OnButtonSend2() : COM2 을 사용해서 데이터 송신
+ - OnButtonPortTest() : 임의의 COM Port를 테스트
+
+
+3. 파일 설명
+
+ - gtComPort.h : gtComPort 헤더파일
+ - gtLib14.dll : gtComport Release용 DLL file
+ - gtLib14d.dll : gtComport Debug용 DLL file
+ - gtLib14.lib : gtComport Release용 Lib file
+ - gtLib14d.lib : gtComport Debbug용 Lib file

@@ -1,0 +1,44 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by gtLib.rc
+!
+      integer, parameter :: IDD_DIALOG_CHART_OPTION         = 5000
+      integer, parameter :: IDD_DIALOG_GRAPH_OPTION         = 5001
+      integer, parameter :: ID_WAVEFORM_WND                 = 5002
+      integer, parameter :: ID_XYGRAPH_WND                  = 5003
+      integer, parameter :: ID_LEGEND_WND                   = 5004
+      integer, parameter :: ID_SELECT_POINT                 = 5005
+      integer, parameter :: IDC_CHECK1                      = 5022
+      integer, parameter :: IDC_CURSOR_LEFTRIGHT            = 5138
+      integer, parameter :: IDC_CURSOR_LEFTBOTTOM           = 5139
+      integer, parameter :: IDC_CURSOR_LEFTTOP              = 5140
+      integer, parameter :: IDC_CURSOR_TOPBOTTOM            = 5141
+      integer, parameter :: IDC_CHECK_X_SHOW_MAINGRID       = 6000
+      integer, parameter :: IDC_CHECK_X_SHOW_GRID           = 6000
+      integer, parameter :: IDC_CHECK_X_SHOW_SUBGRID        = 6001
+      integer, parameter :: IDC_CHECK_X_SHOW_TICK           = 6001
+      integer, parameter :: IDC_CHECK_SHOW_YTITLE           = 6002
+      integer, parameter :: IDC_EDIT_X_MAX                  = 6003
+      integer, parameter :: IDC_CHECK_SHOW_LEGEND           = 6004
+      integer, parameter :: IDC_EDIT_X_MIN                  = 6005
+      integer, parameter :: IDC_EDIT_X_MAIN_GRID            = 6006
+      integer, parameter :: IDC_EDIT_X_GRID                 = 6006
+      integer, parameter :: IDC_CHECK_SHOW_YLABEL           = 6007
+      integer, parameter :: IDC_EDIT_X_SUB_GRID             = 6008
+      integer, parameter :: IDC_EDIT_X_TICK                 = 6008
+      integer, parameter :: IDC_EDIT_Y_MAX                  = 6009
+      integer, parameter :: IDC_EDIT_Y_MIN                  = 6010
+      integer, parameter :: IDC_EDIT_Y_MAIN_GRID            = 6011
+      integer, parameter :: IDC_EDIT_Y_GRID                 = 6011
+      integer, parameter :: IDC_EDIT_Y_SUB_GRID             = 6012
+      integer, parameter :: IDC_EDIT_Y_TICK                 = 6012
+      integer, parameter :: IDC_EDIT_CHART_TITLE            = 6013
+      integer, parameter :: IDC_CHECK_Y_SHOW_MAINGRID       = 6014
+      integer, parameter :: IDC_CHECK_Y_SHOW_GRID           = 6014
+      integer, parameter :: IDC_EDIT_X_TITLE                = 6015
+      integer, parameter :: IDC_CHECK_Y_SHOW_SUBGRID        = 6016
+      integer, parameter :: IDC_CHECK_Y_SHOW_TICK           = 6016
+      integer, parameter :: IDC_EDIT_Y_TITLE                = 6017
+      integer, parameter :: IDC_CHECK_SHOW_CHARTTITLE       = 6018
+      integer, parameter :: IDC_CHECK_SHOW_XTITLE           = 6019
+      integer, parameter :: IDC_CHECK_SHOW_XLABEL           = 6020
