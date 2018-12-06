@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gtLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/gtLib.res" /d "_DEBUG" /d "_AFXDLL" "E:\권기태\갱신자료\작업프로젝트\gtLib\gtComPort\Source\04_11_08 getWaitingByteSize 함수 추가 Ver(1.4.1)-수정\Src\gtLib.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/gtLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\권기태\갱신자료\작업프로젝트\gtLib\gtComPort\Source\04_11_08 getWaitingByteSize 함수 추가 Ver(1.4.1)-수정\Src\gtComPort.cpp"
+"E:\권기태\갱신자료\작업프로젝트\gtLib\gtComPort\Source\04_11_08 getWaitingByteSize 함수 추가 Ver(1.4.1)-수정\Src\gtLib.cpp"
+"E:\권기태\갱신자료\작업프로젝트\gtLib\gtComPort\Source\04_11_08 getWaitingByteSize 함수 추가 Ver(1.4.1)-수정\Src\gtTimer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../Include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXEXT" /D "_WINDLL" /D "_AFXDLL" /Fp"Debug/gtLib.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\권기태\갱신자료\작업프로젝트\gtLib\gtComPort\Source\04_11_08 getWaitingByteSize 함수 추가 Ver(1.4.1)-수정\Src\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"../Lib/gtComPort14d.pdb" /debug /machine:I386 /def:".\gtLibDebug.def" /out:"../Bin/gtComPort14d.dll" /implib:"../Lib/gtComPort14d.lib" /pdbtype:sept 
+".\Debug\gtComPort.obj"
+".\Debug\gtLib.obj"
+".\Debug\gtTimer.obj"
+".\Debug\StdAfx.obj"
+".\Debug\gtLib.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+gtComPort.cpp
+gtLib.cpp
+gtTimer.cpp
+Generating Code...
+Linking...
+   Creating library ../Lib/gtComPort14d.lib and object ../Lib/gtComPort14d.exp
+
+
+
+<h3>Results</h3>
+gtComPort14d.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

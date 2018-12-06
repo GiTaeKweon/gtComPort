@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gtComPortTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/gtComPortTest.res" /d "_DEBUG" /d "_AFXDLL" "D:\WORK\Programming\gtComPortTest142_1_VC60\gtComPortTest.rc"" 
+Creating temporary file "C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/gtComPortTest.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WORK\Programming\gtComPortTest142_1_VC60\gtComPortTest.cpp"
+"D:\WORK\Programming\gtComPortTest142_1_VC60\gtComPortTestDlg.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP21.tmp"" 
+Creating temporary file "C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/gtComPortTest.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WORK\Programming\gtComPortTest142_1_VC60\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP22.tmp"" 
+Creating temporary file "C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+gtComPort14d.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/gtComPortTest.pdb" /debug /machine:I386 /out:"Debug/gtComPortTest.exe" /pdbtype:sept 
+.\Debug\gtComPortTest.obj
+.\Debug\gtComPortTestDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\gtComPortTest.res
+]
+Creating command line "link.exe @"C:\DOCUME~1\권기태\LOCALS~1\Temp\RSP23.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+gtComPortTest.cpp
+gtComPortTestDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+gtComPortTest.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

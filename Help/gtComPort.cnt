@@ -1,0 +1,29 @@
+:Base gtComPort.HLP
+:Title gtComPort Help
+1 gtComPort 소개=HID_INTRODUCE
+1 Getting Started with gtComPort=HID_GETTING_START
+1 Initial Setting
+2 NULL MODEM 통신=HID_NULLMODEM
+2 NULL MODEM 통신 케이블 =HID_MODEM_CABLE
+2 Project Setting=HID_PROJECT_SETTING
+2 Initial Coding=HID_INITIAL_CODING
+2 Callback Function=HID_CALLBACK_FUNCTION
+1 Class Members
+2 함수목록=HID_CLASS_MEMBERS
+2 changePortState=HID_CHANGEPORTSTATE
+2 checkPort=HID_CHECKPORT
+2 clearPort=HID_CLEARPORT
+2 closePort=HID_CLOSEPORT
+2 CWnd::OnCommNotify=HID_COMMNOTIFY
+2 getReceivedByteSize=HID_GETRECEIVEDBYTESIZE
+2 getPortState=HID_GETPORTSTATE
+2 getWaitingByteSize=HID_GETWAITINGBYTESIZE
+2 isOpened=HID_ISOPENED
+2 openPort=HID_OPENPORT
+2 receiveByte=HID_RECEIVEBYTE
+2 receiveBytes=HID_RECEIVEBYTES
+2 receiveString=HID_RECEIVESTRING
+2 sendByte=HID_SENDBYTE
+2 sendBytes=HID_SENDBYTES
+2 sendString=HID_SENDSTRING
+2 setSendingMode=HID_SETSENDINGMODE
