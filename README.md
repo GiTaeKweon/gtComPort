@@ -1,2 +1,2 @@
 # gtComPort
-RS232C Open Source Library for VC++ V7.0(2002)
+MFC RS232C Open Source Library for VC++ V7.0(2002)
